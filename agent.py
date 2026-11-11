@@ -49,7 +49,7 @@ tavily_search = TavilySearch(
 tools = [check_weather, tavily_search]
 
 llm = ChatGoogleGenerativeAI(
-    model="gemini-3.6-flash",
+    model="gemini-3.1-flash-lite",
     temperature=0,
     max_tokens=None,
     timeout=None,
