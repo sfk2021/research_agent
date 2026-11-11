@@ -14,9 +14,13 @@ from langchain_community.tools import TavilySearchResults
 import json
 
 # Load environment variables from .env file
+# load_dotenv()
+# os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
+# os.environ["TAVILY_API_KEY"] = os.getenv("TAVILY_API_KEY")
 load_dotenv()
-os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
-os.environ["TAVILY_API_KEY"] = os.getenv("TAVILY_API_KEY")
+for _key in ("GOOGLE_API_KEY", "TAVILY_API_KEY"):
+    if not os.getenv(_key):
+        raise RuntimeError(f"{_key} is missing. Add it to .env locally or to Secrets on Streamlit Cloud.")
 
 def check_weather(location: str) -> str:
     '''Return the weather forecast for the specified location.'''
