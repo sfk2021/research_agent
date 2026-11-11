@@ -1,0 +1,8 @@
+streamlit
+pandas
+altair
+langgraph
+langchain-google-genai
+langchain-community
+langchain-tavily
+python-dotenv

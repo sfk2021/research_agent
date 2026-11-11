@@ -1,0 +1,97 @@
+{
+  "chartsArray": [
+    {
+      "type": "bar",
+      "title": "Top 5 Largest Economies by Nominal GDP (2025)",
+      "xAxisLabel": "Economies",
+      "yAxisLabel": "Nominal GDP (in Trillions USD)",
+      "descriptionOfLabel": "country",
+      "chartData": [
+        {
+          "label": "United States",
+          "value": 30.62
+        },
+        {
+          "label": "China",
+          "value": 19.4
+        },
+        {
+          "label": "Germany",
+          "value": 5.01
+        },
+        {
+          "label": "Japan",
+          "value": 4.28
+        },
+        {
+          "label": "India",
+          "value": 4.13
+        }
+      ],
+      "chartFootNote": "Data based on IMF World Economic Outlook (October 2025) projections. The United States and China remain the two largest global economies, together accounting for the vast majority of the top 5 nominal GDP total."
+    },
+    {
+      "type": "pie",
+      "title": "Share of Global GDP by Purchasing Power Parity (PPP)",
+      "descriptionOfLabel": "country/region",
+      "chartData": [
+        {
+          "label": "China",
+          "value": 19.63
+        },
+        {
+          "label": "United States",
+          "value": 14.65
+        },
+        {
+          "label": "India",
+          "value": 8.48
+        },
+        {
+          "label": "Japan",
+          "value": 3.23
+        },
+        {
+          "label": "Germany",
+          "value": 2.95
+        },
+        {
+          "label": "Rest of World",
+          "value": 51.06
+        }
+      ],
+      "chartFootNote": "Adjusted for Purchasing Power Parity (PPP), China holds the largest single share of global GDP at 19.63%, followed by the United States at 14.65% and India at 8.48%."
+    },
+    {
+      "type": "bar",
+      "title": "Projected 2025 Real GDP Growth Rates of Top 5 Economies",
+      "xAxisLabel": "Economies",
+      "yAxisLabel": "Real GDP Growth Rate (%)",
+      "descriptionOfLabel": "country",
+      "chartData": [
+        {
+          "label": "India",
+          "value": 6.6
+        },
+        {
+          "label": "China",
+          "value": 4.8
+        },
+        {
+          "label": "United States",
+          "value": 2.0
+        },
+        {
+          "label": "Japan",
+          "value": 1.1
+        },
+        {
+          "label": "Germany",
+          "value": 0.2
+        }
+      ],
+      "chartFootNote": "India leads the top 5 economies in projected real GDP growth rate at 6.6%, followed by China at 4.8%, while advanced economies display slower growth rates ranging from 0.2% to 2.0%."
+    }
+  ],
+  "otherResearchFindings": "GDP per capita figures for 2025 place the United States highest among the top 5 at $89,600, followed by Germany ($59,930), Japan ($34,710), China ($13,810), and India ($2,820). According to IMF data, the United Kingdom ranks 6th in nominal GDP at $3.96 Trillion."
+}
